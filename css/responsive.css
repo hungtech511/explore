@@ -1,0 +1,516 @@
+/*@media (max-width: 1050px) and (min-width: 768px ){
+	.logo{
+		opacity: 1;
+	}
+    .nav-list {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 9999;
+		top: 0;
+		right: 0;
+		background-color: #000;
+		opacity: 1;
+		overflow-x: hidden;
+		padding-top: 60px;
+		transition: 0.9s;
+		display: block;
+    }
+	.nav-list a {
+		display: block;
+		font-size: 18px;
+		text-decoration: none;
+		color: #fff;
+		margin:1rem 0 0 2rem;
+	}	
+	.slide{
+		display: block;
+	}
+	.slide .open{
+		font-size:25px;
+		color:#fff;		
+	}
+	.nav .close {
+		display: block;
+		font-size:25px;
+	}
+	.nav.close{
+		position: absolute;
+		top: -50px;
+		left: 0;
+		font-size: 30px;
+	}
+	.hero{
+		background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bg.png") no-repeat top left/cover fixed;
+	} 
+	.service .service-items{
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-gap:3rem;
+		margin-top:4rem;
+		position: relative;
+	}
+	.skill-items{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		grid-gap:4rem;
+	}
+	.skill-item::before{
+		top:56%;
+	}
+	.our-team-content{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		grid-gap:2rem;
+		text-align: center;
+	}
+	.our-team-description .our-team-social-media{
+		justify-content: center
+	}
+	.our-team-staff{
+		margin:1rem auto;
+	}
+	.our-team-skills{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.first::before{
+		right:5px;
+	}
+	.first::after{
+		right:20px;
+	}
+	.second::before,
+	.third::before{
+		right:100px;
+	}
+	.second::after,
+	.third::after{
+		right:120px;
+	}
+	.fourth::before{
+		right:30px;
+	}
+	.fourth::after{
+		right:48px;
+	}
+	.features-items{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.features-item{
+		margin-top:10rem;
+	}
+	.btn-tap{
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-gap: 2rem;		
+	}
+	.tab-content{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.tab-image{
+		width:520px;
+		max-width: 510px;
+	}
+	.filter{
+		margin-top:25rem;
+	}
+	.filter-items{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		box-shadow: 5px 5px 35px 5px #efefef;
+	}
+	.filter-images{
+		grid-template-columns: repeat(2,1fr);
+	}
+	.testimonial .testimonial-item{
+		width:100%;
+	}
+	.testimonial-box{
+		margin:4rem 0;
+	}
+	.price-items{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.price-item{
+		display: block;
+		margin:0 auto;
+		width:80%;
+	}
+	.count{
+		height:100vh;
+	}
+	.count-items{
+		grid-template-columns: repeat(2,200px);
+		justify-content: center;
+	}
+	.brand-item img{
+		width:100%;
+	}
+	.blog-items{
+		grid-template-columns: repeat(1,1fr);
+		text-align:center;
+	}
+	.blog-item{
+		margin-bottom: 1rem;
+	}
+	.blog-heading{
+		justify-content: center;
+	}
+	.blog-image{
+		display: block;
+		margin:0 auto;
+	}
+	.blog-content h4::before{
+		left:45%;
+	}
+	.contact-content{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.contact-mail{
+		width:100%;
+		margin-bottom: 2rem;
+	}
+ }
+*/
+@media (max-width: 768px) and (min-width: 681px ){
+	.logo{
+		opacity: 1;
+	}
+    .nav-list {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 9999;
+		top: 0;
+		right: 0;
+		background-color: #000;
+		opacity: 1;
+		overflow-x: hidden;
+		padding-top: 60px;
+		transition: 0.9s;
+		display: block;
+    }
+	.nav-list a {
+		display: block;
+		font-size: 18px;
+		text-decoration: none;
+		color: #fff;
+		margin:1rem 0 0 2rem;
+	}	
+	.slide{
+		display: block;
+	}
+	.slide .open{
+		font-size:25px;
+		color:#fff;		
+	}
+	.nav .close {
+		display: block;
+		font-size:25px;
+	}
+	.nav.close{
+		position: absolute;
+		top: -50px;
+		left: 0;
+		font-size: 30px;
+	}
+	.hero{
+		background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bg.png") no-repeat top left/cover fixed;
+	} 
+	.service .service-items{
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-gap:3rem;
+		margin-top:4rem;
+		position: relative;
+	}
+	.skill-items{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		grid-gap:4rem;
+	}
+	.skill-item::before{
+		top:55%;
+	}	
+	.our-team-content{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		grid-gap:2rem;
+		text-align: center;
+	}
+	.our-team-description .our-team-social-media{
+		justify-content: center
+	}
+	.our-team-staff{
+		margin:1rem auto;
+	}
+	.our-team-skills{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.first::before{
+		right:5px;
+	}
+	.first::after{
+		right:20px;
+	}
+	.second::before,
+	.third::before{
+		right:100px;
+	}
+	.second::after,
+	.third::after{
+		right:120px;
+	}
+	.fourth::before{
+		right:30px;
+	}
+	.fourth::after{
+		right:48px;
+	}
+	.features-items{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.features-item{
+		margin-top:10rem;
+	}
+	.btn-tap{
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-gap: 2rem;		
+	}
+	.tab-content{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.tab-image{
+		width:520px;
+		max-width: 510px;
+	}
+	.filter{
+		margin-top:25rem;
+	}
+	.filter-items{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		box-shadow: 5px 5px 35px 5px #efefef;
+	}
+	.filter-images{
+		grid-template-columns: repeat(2,1fr);
+	}
+	.testimonial .testimonial-item{
+		width:100%;
+	}
+	.testimonial-box{
+		margin:4rem 0;
+	}
+	.price-items{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.price-item{
+		display: block;
+		margin:0 auto;
+		width:80%;
+	}
+	.count{
+		height:100vh;
+	}
+	.count-items{
+		grid-template-columns: repeat(2,200px);
+		justify-content: center;
+	}
+	.brand-item img{
+		width:100%;
+	}
+	.blog-items{
+		grid-template-columns: repeat(1,1fr);
+		text-align:center;
+	}
+	.blog-item{
+		margin-bottom: 1rem;
+	}
+	.blog-heading{
+		justify-content: center;
+	}
+	.blog-image{
+		display: block;
+		margin:0 auto;
+	}
+	.blog-content h4::before{
+		left:45%;
+	}
+	.contact-content{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.contact-mail{
+		width:100%;
+		margin-bottom: 2rem;
+	}
+ }
+
+@media (max-width: 481px) and (min-width: 320px){
+	.logo{
+		opacity: 1;
+	}
+    .nav-list {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 9999;
+		top: 0;
+		right: 0;
+		background-color: #000;
+		opacity: 1;
+		overflow-x: hidden;
+		padding-top: 60px;
+		transition: 0.9s;
+		display: block;
+    }
+	.nav-list a {
+		display: block;
+		font-size: 18px;
+		text-decoration: none;
+		color: #fff;
+		margin:1rem 0 0 2rem;
+	}	
+	.slide{
+		display: block;
+	}
+	.slide .open{
+		font-size:25px;
+		color:#fff;		
+	}
+	.nav .close {
+		display: block;
+		font-size:25px;
+	}
+	.nav.close{
+		position: absolute;
+		top: -50px;
+		left: 0;
+		font-size: 30px;
+	}
+	.hero{
+		background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bg.png") no-repeat top left/cover fixed;
+	} 
+	.service .service-items{
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-gap:3rem;
+		margin-top:4rem;
+		position: relative;
+	}
+	.skill-items{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		grid-gap:4rem;
+	}
+	.skill-item::before{
+		top:55%;
+	}
+	.our-team-content{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		grid-gap:2rem;
+		text-align: center;
+	}
+	.our-team-description .our-team-social-media{
+		justify-content: center
+	}
+	.our-team-staff{
+		margin:1rem auto;
+	}
+	.our-team-skills{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.first::before{
+		right:5px;
+	}
+	.first::after{
+		right:20px;
+	}
+	.second::before,
+	.third::before{
+		right:90px;
+	}
+	.second::after,
+	.third::after{
+		right:110px;
+	}
+	.fourth::before{
+		right:25px;
+	}
+	.fourth::after{
+		right:44px;
+	}
+	.features-items{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.features-item{
+		margin-top:10rem;
+	}
+	.btn-tap{
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-gap: 2rem;		
+	}
+	.tab-content{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.filter{
+		margin-top:25rem;
+	}
+	.filter-items{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		box-shadow: 5px 5px 35px 5px #efefef;
+	}
+	.filter-images{
+		grid-template-columns: repeat(2,1fr);
+	}
+	.testimonial .testimonial-item{
+		width:100%;
+	}
+	.testimonial-box{
+		margin:4rem 0;
+	}
+	.price-items{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.price-item{
+		display: block;
+		margin:0 auto;
+		width:80%;
+	}
+	.count{
+		height:100vh;
+	}
+	.count-items{
+		grid-template-columns: repeat(2,200px);
+	}
+	.brand-item img{
+		width:100%;
+	}
+	.blog-items{
+		grid-template-columns: repeat(1,1fr);
+		text-align:center;
+	}
+	.blog-item{
+		margin-bottom: 1rem;
+	}
+	.blog-heading{
+		justify-content: center;
+	}
+	.blog-image{
+		display: block;
+		margin:0 auto;
+	}
+	.blog-content h4::before{
+		left:45%;
+	}
+	.contact-content{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.contact-mail{
+		width:100%;
+		margin-bottom: 2rem;
+	}
+ }
