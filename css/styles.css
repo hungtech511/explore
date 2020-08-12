@@ -287,11 +287,14 @@ header{
 	background-color: var(--primary-color);
 	cursor: pointer;
 }
+
 .our-team-staff{
-	width:250px;
+	
+	display: inline-block;
 	height:250px;
-	display: block;
+	width:250px;
 }
+
 .our-team-skills{
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
