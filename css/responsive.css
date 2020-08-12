@@ -43,8 +43,9 @@
 	.hero{
 		background-image:url("../images/bg.png");
 		background-repeat:no-repeat;
-		background-size:contain;
-		background-position:center;
+		background-size:cover;
+		background-attachment: initial;
+		background-position:left;
 	} 
 	.service .service-items{
 		display: grid;
