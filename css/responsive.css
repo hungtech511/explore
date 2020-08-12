@@ -1,4 +1,4 @@
-@media (max-width: 500px) and (min-width: 320px){
+@media (min-width: 320px){
 	.logo{
 		opacity: 1;
 	}
@@ -60,7 +60,7 @@
 		grid-gap:4rem;
 	}
 	.skill-item::before{
-		top:51%;
+		top:49%;
 	}
 	.our-team-content{
 		display: grid;
@@ -100,11 +100,7 @@
 	.manager{
 	width:100%;
 	height:50vh;
-	background:url("../images/cover-bg-1.jpg");	
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-attachment: initial;
-	background-position:center;	
+	background:url("../images/cover-bg-1.jpg")no-repeat center/cover;
 	color:#fff;
 	display: flex;
 	justify-content: center;
