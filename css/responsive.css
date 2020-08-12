@@ -41,7 +41,7 @@
 		font-size: 30px;
 	}
 	.hero{
-		background:url("../images/bg-dark.png") no-repeat center center/cover fixed;
+		background:url("../images/bg.png") no-repeat top left/cover fixed;
 	} 
 	.service .service-items{
 		display: grid;
