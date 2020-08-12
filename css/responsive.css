@@ -1,7 +1,4 @@
-@media (min-width: 320px){
-	.logo{
-		opacity: 1;
-	}
+@media (max-width: 500px) and (min-width: 320px){
     .nav-list {
 		height: 100%;
 		width: 0;
@@ -60,7 +57,7 @@
 		grid-gap:4rem;
 	}
 	.skill-item::before{
-		top:49%;
+		top:51%;
 	}
 	.our-team-content{
 		display: grid;
