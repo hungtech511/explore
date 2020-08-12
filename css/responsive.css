@@ -97,6 +97,20 @@
 	.fourth::after{
 		right:44px;
 	}
+	.manager{
+	width:100%;
+	height:50vh;
+	background:url("../images/cover-bg-1.jpg");	
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: initial;
+	background-position:center;	
+	color:#fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	}
 	.features-items{
 		grid-template-columns: repeat(1,1fr);
 	}
@@ -110,6 +124,14 @@
 	}
 	.tab-content{
 		grid-template-columns: repeat(1,1fr);
+	}
+	.tab-image{
+	width:420px;
+	height:420px;
+	}
+	.tab-image{
+		width:100%;
+		max-width: 100%;
 	}
 	.filter{
 		margin-top:25rem;
