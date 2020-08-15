@@ -239,11 +239,13 @@ header{
 .skill-item::before{
 	content:'';
 	position: absolute;
-	top:47%;
-	left:50%;
+	top:0;
+	right:0;
+	left:0;
+	bottom:10%;
 	width:40px;
 	height:3px;
-	transform: translate(-50%, -50%);
+	margin:auto;
 	background-color:var(--primary-color);
 	transition: all .7s;
 }
