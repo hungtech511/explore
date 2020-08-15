@@ -60,7 +60,8 @@
 		grid-gap:4rem;
 	}
 	.skill-item::before{
-		top:51%;
+		margin:auto;
+		bottom:0;
 	}
 	.our-team-content{
 		display: grid;
